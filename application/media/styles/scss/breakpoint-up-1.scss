@@ -1,0 +1,10 @@
+/* $. LAYOUT
+------------------------------------------------------------------------------------------*/
+nav {
+	position: static;
+	float: right;
+}
+
+.container {
+	@include border-radius(0);
+}

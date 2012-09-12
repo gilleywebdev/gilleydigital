@@ -1,0 +1,38 @@
+/* Header */
+.logo {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* Navigation */
+nav {
+	background: #273039;
+	width: 100%;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav_item {
+	@include border-radius(0);
+	width: 33.33%;
+	margin: 0;
+}
+
+.nav_item a {
+	@include font-size(26);
+	width: 100%;
+	text-align: center;
+	padding: 3px 0;
+}
+
+.active {
+	background: #fff;
+}
+
+/* Content */
+.column {
+	float: none;
+	width: auto;
+}
