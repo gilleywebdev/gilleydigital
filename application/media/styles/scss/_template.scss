@@ -5,10 +5,13 @@ body {
 }
 
 .container {
-	background: url('/media/graphics/content-bg.png') repeat top left $contentBackgroundCol;
 	@include box-sizing;
+	width: $container;
+	max-width: $containerMax;
+	margin: 0 auto 0;
+	background: url('/media/graphics/content-bg.png') repeat top left $contentBackgroundCol;
 	padding: 1em 2em;
-	@include border-radius(7px 0 0 0);
+	@include border-radius(8px 0 0 0);
 }
 
 ::selection {
@@ -31,7 +34,6 @@ h1, h2, h3, h4, h5, h6, a {
 	font-weight: 600;
 }
 
-
 /* Header */
 header {
 	width: 94%;
@@ -46,10 +48,33 @@ header {
 }
 
 /* Navigation */
+
+/* -- NAV -- */
+.nav {
+	@extend .reset-list;
+
+	li {
+		@extend .zero-bottom;
+	}
+
+	a {
+		display: inline-block;
+	}	
+
+}
+
 nav {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+
+.nav_item {
+	display: block;
+	margin-right: .5em;
+	margin-top: 8px;
+	float: left;
+	@include border-radius(5px 5px 0 0);
 }
 
 .nav_item a {
@@ -59,15 +84,8 @@ nav {
 	padding: 0 1em;
 }
 
-.nav_item {
-	display: block;
-	margin-right: .5em;
-	float: left;
-	@include border-radius(5px 5px 0 0);
-}
-
 .nav_item.last {
-	margin-right:0;
+	margin-right: 0;
 }
 
 .color1 {
@@ -87,21 +105,52 @@ nav {
 }
 
 /* Content */
+
+.column_wrap {
+	margin-left: -4em;
+	overflow: hidden;
+	clear: both;
+}
+
 .column {
 	float: left;
 	width: 50%;
-	padding: 5px;
+	padding-left: 4em;
 	@include box-sizing;
+}
+
+.column_header {
+	@extend .zero-top;
+}
+
+.testimonial {
+	background: url('/media/graphics/quotes.png') top left no-repeat;
+	padding: 1em 35px;
 }
 
 /* Footer */
 footer {
-	background: #273039;
 	color: #fff;
+	margin-bottom: 2em;
+}
+
+footer p:last-child {
+	margin-bottom: 0;
+}
+
+footer a {
+	color: #e1d8bb;
+}
+
+footer a:hover {
+	color: #ea9675;
 }
 
 footer .limiter {
+	border-top: 6px solid #242424;
+	border-bottom: 3px solid #242424;
+	background: #273039;
 	padding: 1em 2em;
-	height: 50px;
 	@include box-sizing;
+	@include border-radius(0 0 25px 25px);
 }
