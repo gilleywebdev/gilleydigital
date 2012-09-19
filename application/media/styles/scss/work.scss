@@ -1,0 +1,25 @@
+.work-sample {
+	border: 3px solid #1b1b1b;
+	margin-bottom: 1.5em;
+	padding: .5em;
+	
+	h2 {
+		margin-top: 0;
+	}
+	
+	.screenshot {
+		float: right;
+		padding-left: 2em;
+	}
+}
+
+.outline {
+	border: 1px solid #000;
+}
+
+@media only screen and (max-width: 38em) {
+	.work-sample .screenshot{
+		float: none;
+		padding: 0;
+	}
+}

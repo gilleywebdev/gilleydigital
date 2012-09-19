@@ -1,21 +1,26 @@
 <h1>Gilley Digital is an independent web shop based in Portland, Maine</h1>
-<div class="column_wrap">
-	<div class="column">
-		<h3 class="column_header">Responsive Design</h3>
-		<p>Responsive Design means the site is made to stretch and be readable no matter the size of the window or device.</p>
-		<h3 class="column_header">Search Engine Optimized</h3>
-		<p>SEO means that your site is engineered to appear near the top of the search results for certain searches related to your business, like "Best Fishmonger Portland, Maine".</p>
+<p class="bigger">I work with businesses and individuals in Maine to create <strong>affordable</strong> and <strong>effective</strong> websites that change and grow with you</p>
+<div class="features">
+	<div class="column_wrap">
+		<div class="column">
+			<h2 class="column_header">Responsive Design</h2>
+			<p>Your site will look right at home on <strong>mobile, tablet and desktop</strong> devices regardless of screen size. Give it a try now by resizing your browser window!</p>
+			<h2 class="column_header">Scalable Framework</h2>
+			<p>Each new site is custom-built on a real programming framework, not a mashup of platforms and plugins. This allows me to create a <strong>unique &amp; seamless experience</strong>.</p>
+		</div>
+		<div class="column">
+			<h2 class="column_header">Content Management</h2>
+			<p>Every site comes with an admin section that allows you and your employees to log in and <strong>easily make changes</strong> to the site, without needing to know any code.</p>
+			<h2 class="column_header">Search Engine Optimization</h2>
+			<p><strong>Clean code, descriptive titles and smart page structure</strong> means Google can navigate your site just as easily as your users can.</p>
+		</div>
+		<div class="cf"></div>
 	</div>
-	<div class="column">
-		<h3 class="column_header">Content Management</h3>
-		<p>A CMS is a system that allows you and your employees to log in and easily make text changes to the site, without needing to know any code.</p>
-		<h3 class="column_header">Sturdy Scaleable Framework</h3>
-		<p>I build all new websites in Kohana, an open source programming framework.</p>
-	</div>
-	<div class="cf"></div>
 </div>
 <div class="testimonial">
-	<h2 style="margin:0">Chris made the process of creating a website easy and enjoyable. I would recommend him to anyone looking for a professional experience and a great product.</h2>
-	<p style="float: right">- Julianna Orgel, julesinthejungle.com</p>
+	<h3 class="quote">Chris made the process of creating a website easy and enjoyable. I would recommend him to anyone looking for a professional experience and a great product.</h3>
+	<p class="attribution">- Julianna Orgel, <a href="http://www.julesinthejungle.com" title="Jules in the Jungle" target="_blank">julesinthejungle.com</a></p>
 	<div class="cf"></div>
 </div>
+<p>Ready to get started? <a href="/pricing">See pricing info</a></p>
+<p>Still have questions? <a href="/codex">Check out the codex</a> or just <a href="/contact">holler at me</a></p>

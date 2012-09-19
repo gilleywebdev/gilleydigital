@@ -1,6 +1,11 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Staticplus extends Controller_Static {
+	public function action_work()
+	{
+		Styles::add('work', Styles::PAGE);
+	}
+	
 	public function action_contact()
 	{
 		if($post = Form::post())

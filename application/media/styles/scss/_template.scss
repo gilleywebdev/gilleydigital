@@ -23,14 +23,11 @@ img, audio, canvas, embed, object, video {
 	max-width: 100%;
 }
 
-.limiter {
-	width:94%;
-	margin:0 auto;
-	max-width: 70em;
-	position: relative;
+h1, h2, h3, h4, h5, h6, a {
+	font-weight: 600;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+strong {
 	font-weight: 600;
 }
 
@@ -38,7 +35,7 @@ h1, h2, h3, h4, h5, h6, a {
 header {
 	width: 94%;
 	margin: 0 auto;
-	max-width: 70em;
+	max-width: 1000px;
 	position: relative;
 }
 
@@ -79,7 +76,7 @@ nav {
 
 .nav_item a {
 	font-family: 'Varela Round', sans-serif;
-	@include font-size (20);
+	@include font-size (18);
 	color: #000;
 	padding: 0 1em;
 }
@@ -106,8 +103,20 @@ nav {
 
 /* Content */
 
+h1, .as-h1 {
+	@include font-size(26);
+}
+
+h2, .as-h2 {
+	@include font-size(22);
+}
+
+.bigger {
+	@include font-size(20);
+}
+
 .column_wrap {
-	margin-left: -4em;
+	margin-left: -5em;
 	overflow: hidden;
 	clear: both;
 }
@@ -115,7 +124,7 @@ nav {
 .column {
 	float: left;
 	width: 50%;
-	padding-left: 4em;
+	padding-left: 5em;
 	@include box-sizing;
 }
 
@@ -126,12 +135,34 @@ nav {
 .testimonial {
 	background: url('/media/graphics/quotes.png') top left no-repeat;
 	padding: 1em 35px;
+	margin-top: 1em;
+}
+
+.testimonial .quote {
+	margin: 0;
+}
+
+.testimonial .attribution {
+	float: right;
+}
+
+.testimonial .attribution a {
+	font-weight: normal;
 }
 
 /* Footer */
 footer {
 	color: #fff;
-	margin-bottom: 2em;
+	@include font-size(14);
+	width: 94%;
+	max-width: 1000px;
+	margin: 0 auto 2em;
+	border-top: 6px solid #242424;
+	border-bottom: 3px solid #242424;
+	background: #273039;
+	padding: 1em 2em;
+	@include box-sizing;
+	@include border-radius(0 0 25px 25px);
 }
 
 footer p:last-child {
@@ -144,13 +175,4 @@ footer a {
 
 footer a:hover {
 	color: #ea9675;
-}
-
-footer .limiter {
-	border-top: 6px solid #242424;
-	border-bottom: 3px solid #242424;
-	background: #273039;
-	padding: 1em 2em;
-	@include box-sizing;
-	@include border-radius(0 0 25px 25px);
 }

@@ -15,20 +15,35 @@ nav {
 }
 
 .nav_item {
+	@include box-sizing;
 	@include border-radius(0);
 	width: 33.33%;
 	margin: 0;
+	padding: 3px;
 }
 
 .nav_item a {
 	@include font-size(26);
 	width: 100%;
 	text-align: center;
-	padding: 3px 0;
+	padding: 0;
 }
 
 .active {
-	background: #fff;
+	padding: 0;
+	border: 3px solid #000;
+}
+
+.active.color1 {
+	background: #d7e2eb !important;
+}
+
+.active.color2 {
+	background: #eee7d1 !important;
+}
+
+.active.color3 {
+	background: #efddd6 !important;
 }
 
 /* Content */
