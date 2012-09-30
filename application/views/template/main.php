@@ -5,11 +5,11 @@
 				->bind('title', $title)
 				->bind('description', $description) ?>
 	</head>
-	<body class="<?php echo $pagename; ?>_page" class="subpage">
+	<body class="<?php echo $pagename; ?>_page">
 		<header>
 			<a href="/" title="Home"><img class="logo" src="/media/graphics/logo.png" alt="Gilley Digital"></a>
 			<?php echo View::factory('includes/navigation') ?>
-		<div style="clear:both"></div>
+		<div class="cf"></div>
 		</header>
 		<div class="container">
 			<div class="content">
@@ -25,13 +25,13 @@
 				</p>
 				<div class="social">
 					<a href="https://www.facebook.com/gilleywebdev" target="_blank">
-						<img src="/media/graphics/facebook.png">
+						<img src="/media/graphics/facebook.png" alt="Facebook">
 					</a>
 					<a href="https://twitter.com/gilleywebdev" target="_blank">
-						<img src="/media/graphics/twitter.png">
+						<img src="/media/graphics/twitter.png" alt="Twitter">
 					</a>
 					<a href="http://www.linkedin.com/pub/chris-gilley/15/2/36b" target="_blank">
-						<img src="/media/graphics/linkedin.png">
+						<img src="/media/graphics/linkedin.png" alt="LinkedIn">
 					</a>
 				</div>
 			</div>
