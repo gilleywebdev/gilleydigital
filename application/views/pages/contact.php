@@ -1,7 +1,7 @@
 <h1>Contact</h1>
 <p>Phone: <?php echo Info::get('phone') ?><br>
-Email: <a href="mailto:<?php echo Info::get('email') ?>" title="E-mail Chris"><?php echo Info::get('email') ?></a><br>
-Twitter: <a href="http://www.twitter.com/gilleywebdev" title="Gilley Digital on Twitter" target="_blank">@gilleywebdev</a>
+Email: <a href="mailto:<?php echo Info::get('email') ?>"><?php echo Info::get('email') ?></a><br>
+Twitter: <a href="http://www.twitter.com/gilleywebdev" target="_blank">@gilleywebdev</a>
 </p>
 
 <?php

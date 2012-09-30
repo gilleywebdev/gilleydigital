@@ -19,8 +19,8 @@
 </div>
 <div class="testimonial">
 	<h3 class="quote">Chris made the process of creating a website easy and enjoyable. I would recommend him to anyone looking for a professional experience and a great product.</h3>
-	<p class="attribution">- Julianna Orgel, <a href="http://www.julesinthejungle.com" title="Jules in the Jungle" target="_blank">julesinthejungle.com</a></p>
+	<p class="attribution">- Julianna Orgel, <a href="http://www.julesinthejungle.com" target="_blank">julesinthejungle.com</a></p>
 	<div class="cf"></div>
 </div>
-<p>Ready to get started? <a href="/pricing" title="Pricing">See pricing info</a></p>
+<p>Ready to get started? <a href="/pricing">See pricing info</a></p>
 <p>Still have questions? <a href="/work">View my work</a> or just <a href="/contact">contact me</a></p>

@@ -1,22 +1,22 @@
 <nav>
 	<ul class="nav">
 		<li class="nav_item color1 first <?php echo Helper::active('index') ?>">
-			<a href="/" title="Home">Home</a>
+			<a href="/">Home</a>
 		</li>
 		<li class="nav_item color2 <?php echo Helper::active('about') ?>">
-			<a href="/about" title="About">About</a>
+			<a href="/about">About</a>
 		</li>
 		<li class="nav_item color3 <?php echo Helper::active('codex') ?>">
-			<a href="/codex" title="Codex">Codex</a>
+			<a href="/codex">Codex</a>
 		</li>
 		<li class="nav_item color1 <?php echo Helper::active('work') ?>">
-			<a href="/work" title="Work">Work</a>
+			<a href="/work">Work</a>
 		</li>
 		<li class="nav_item color2 <?php echo Helper::active('pricing') ?>">
-			<a href="/pricing" title="Pricing">Pricing</a>
+			<a href="/pricing">Pricing</a>
 		</li>
 		<li class="nav_item color3 last <?php echo Helper::active('contact') ?>">
-			<a href="/contact" title="Contact">Contact</a>
+			<a href="/contact">Contact</a>
 		</li>
 	</ul>
 </nav>

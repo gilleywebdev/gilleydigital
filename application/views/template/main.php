@@ -51,7 +51,7 @@
 			</div>
 */ ?>
 			<div class="cf"></div>
-			<p class="footer_roundup">&copy; Gilley Digital <?php echo date('Y') ?> &bull; All Rights Reserved &bull; Gilley Digital is an independent web design agency in Portland, Maine &bull; <a href="/sitemap" title="Site Map">Site Map</a><br></p>
+			<p class="footer_roundup">&copy; Gilley Digital <?php echo date('Y') ?> &bull; All Rights Reserved &bull; Gilley Digital is a web design and development agency in Portland, Maine &bull; <a href="/sitemap">Site Map</a><br></p>
 		</footer>
 	</body>
 </html>

@@ -1,27 +1,21 @@
 <h1>Site Map</h1>
 <ul>
 	<li>
-		<a href="/" title="Home">Home</a>
+		<a href="/">Home</a>
 	</li>
 	<li>
-		<a href="/about" title="About">About</a>
+		<a href="/about">About</a>
 	</li>
 	<li>
-		<a href="/codex" title="Codex">Codex</a>
-		<ul>
-			<li><a href="/web-design">Web Design</a></li>
-			<li><a href="/web-development">Web Development</a></li>
-			<li><a href="/content-management-systems">Content Management Systems</a></li>
-			<li><a href="/search-engine-optimization">Search Engine Optimization</a></li>
-		</ul>
+		<a href="/codex">Codex</a>
 	</li>
 	<li>
-		<a href="/work" title="Work">Work</a>
+		<a href="/work">Work</a>
 	</li>
 	<li>
-		<a href="/pricing" title="Pricing">Pricing</a>
+		<a href="/pricing">Pricing</a>
 	</li>
 	<li>
-		<a href="/contact" title="Contact">Contact</a>
+		<a href="/contact">Contact</a>
 	</li>
 </ul>
