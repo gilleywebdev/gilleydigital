@@ -17,14 +17,41 @@
 			</div>
 		</div>
 		<footer>
-			<p>
-				<a href="/sitemap">Site Map</a> &bull;
-				<a href="http://www.facebook.com/gilleywebdev" target="_blank" title="Gilley Digital on Facebook">Facebook</a> &bull;
-				<a href="http://www.twitter.com/gilleywebdev" target="_blank" title="Gilley Digital on Twitter">Twitter</a> &bull;
-				<?php echo Info::get('phone') ?> &bull;
-				<a href="/contact">Contact</a>
-			</p>
-			<p>&copy; Gilley Digital <?php echo date('Y') ?> &bull; All Rights Reserved &bull; Gilley Digital is an independent <a href="/web-design" title="More info about web design from Gilley Digital">web design</a> and <a href="/website-development" title="More info about website development from Gilley Digital">development</a> agency in Portland, Maine</p>
+			<div class="footer_block info">
+				<p>
+					<strong>Phone: </strong><?php echo Info::get('phone') ?>
+					<br>
+					<strong>Email: </strong><a href="mailto:<?php echo Info::get('email') ?>"><?php echo Info::get('email') ?></a>
+				</p>
+				<div class="social">
+					<a href="https://www.facebook.com/gilleywebdev" target="_blank">
+						<img src="/media/graphics/facebook.png">
+					</a>
+					<a href="https://twitter.com/gilleywebdev" target="_blank">
+						<img src="/media/graphics/twitter.png">
+					</a>
+					<a href="http://www.linkedin.com/pub/chris-gilley/15/2/36b" target="_blank">
+						<img src="/media/graphics/linkedin.png">
+					</a>
+				</div>
+			</div>
+<?php /*
+			<div class="footer_block aotw">
+				<div class="aotw_inner">
+					<p><strong>Chris' album of the week</strong><br>
+					Dirty Projectors - Swing Lo Magellan</p>
+					<div class="aotw_link link_1">
+						<img src="/media/graphics/youtube.png"><a href="http://www.youtube.com"> Youtube</a>
+					</div>
+					<div class="aotw_link link_2">
+						<img src="/media/graphics/spotify.png"><a href="http://www.spotify.com"> Spotify</a>
+					</div>
+					<div class="cf"></div>
+				</div>
+			</div>
+*/ ?>
+			<div class="cf"></div>
+			<p class="footer_roundup">&copy; Gilley Digital <?php echo date('Y') ?> &bull; All Rights Reserved &bull; Gilley Digital is an independent web design agency in Portland, Maine &bull; <a href="/sitemap" title="Site Map">Site Map</a><br></p>
 		</footer>
 	</body>
 </html>

@@ -6,6 +6,11 @@ class Controller_Staticplus extends Controller_Static {
 		Styles::add('work', Styles::PAGE);
 	}
 	
+	public function action_pricing()
+	{
+		Styles::add('pricing', Styles::PAGE);
+	}
+	
 	public function action_contact()
 	{
 		if($post = Form::post())
@@ -33,11 +38,9 @@ class Controller_Staticplus extends Controller_Static {
 				$this->request->redirect('thank-you');
 			}
 
-			$errors = $post->errors('contact');
-			if(isset($errors))
-			{
-				View::bind_global('errors', $errors);
-			}
+			Form::errors($post->errors('contact'));
 		}
+		
+		Styles::add('contact', Styles::PAGE);
 	}
 }

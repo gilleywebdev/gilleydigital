@@ -1,0 +1,21 @@
+@import "_vars";
+@import "_mixins";
+
+.pricing_block {
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 1.5em;
+	background: #e6e6e6;
+	
+	h2 {
+		margin-top: 0;
+		margin-bottom: 5px;
+		background: #a8a8a8;
+		padding: 8px;
+	}
+	
+	p {
+		margin-bottom: 0;
+		padding: 8px;
+	}
+}

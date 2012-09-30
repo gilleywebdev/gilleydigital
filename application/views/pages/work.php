@@ -48,9 +48,9 @@
 <p>and more...</p>
 <ul>
 <li>Grow-Tech</li>
-<li>Grant Street Orchestra</li>
 <li>Kamasouptra</li>
-<li>Geoff Zimmerman</li>
+<li>Grant Street Orchestra</li>
 <li>Safety Source Maine</li>
 <li>Jules in the Jungle</li>
 </ul>
+<p>In the market? <a href="/pricing">See pricing info</a></p>

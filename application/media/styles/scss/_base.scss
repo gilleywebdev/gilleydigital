@@ -40,10 +40,3 @@ caption { font-style: italic; padding-bottom: 1em; }
 th { background: #666; color: #fff; }
 th, td { padding: .3em .5em; border: 1px solid #ccc; }
 tr:nth-child(odd) td { background-color: #f6f6f6; }
-
-/* -- FORMS -- */
-label { display: block; font-weight: bold; padding-bottom: .5em; }
-input, select, textarea { padding: .5em; border: 1px solid #666; border-color: #666 #ccc #ccc #666; background: #fff; @include box-shadow(0, 0, 3px, 0.1); color: #666; }
-button, .btn, input[type=submit] { background: $compCol; padding: .5em 1em; color: #fff; border: none; @include border-radius; }
-textarea { height: 8em; }	
-legend { font-weight: bold; background: $compCol; color: #fff; padding: .3em .6em; }
