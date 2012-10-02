@@ -1,5 +1,5 @@
-<nav>
-	<ul class="nav">
+<div class="nav">
+	<ul class="nav_ul">
 		<li class="nav_item color1 first <?php echo Helper::active('index') ?>">
 			<a href="/">Home</a>
 		</li>
@@ -19,4 +19,4 @@
 			<a href="/contact">Contact</a>
 		</li>
 	</ul>
-</nav>
+</div>

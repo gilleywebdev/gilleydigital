@@ -6,17 +6,17 @@
 				->bind('description', $description) ?>
 	</head>
 	<body class="<?php echo $pagename; ?>_page">
-		<header>
+		<div class="header">
 			<a href="/" title="Home"><img class="logo" src="/media/graphics/logo.png" alt="Gilley Digital"></a>
 			<?php echo View::factory('includes/navigation') ?>
-		<div class="cf"></div>
-		</header>
+			<div class="cf"></div>
+		</div>
 		<div class="container">
 			<div class="content">
 				<?php echo $content ?>
 			</div>
 		</div>
-		<footer>
+		<div class="footer">
 			<div class="footer_block info">
 				<p>
 					<strong>Phone: </strong><?php echo Info::get('phone') ?>
@@ -52,7 +52,7 @@
 */ ?>
 			<div class="cf"></div>
 			<p class="footer_roundup">&copy; Gilley Digital <?php echo date('Y') ?> &bull; All Rights Reserved &bull; Gilley Digital is a web design and development agency in Portland, Maine &bull; <a href="/sitemap">Site Map</a><br></p>
-		</footer>
+		</div>
 	</body>
 </html>
-<?php Scripts::output() ?>
+<?php // Scripts::output() ?>

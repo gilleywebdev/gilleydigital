@@ -37,7 +37,7 @@
 				<img src="/images/petemiller.jpg" alt="Pete Miller" class="outline">
 			</a>
 		</div>
-		<p>Pete Miller is a local musician and graphic designer who had a vision and needed a developer with the chops to pull it off. The site uses javascript for its navigation so that the music can play uninterrupted while the user navigates the site. Using a custom admin section, Pete can post shows, news, and upload slides to the homepage.</p>
+		<p>Pete Miller is a local musician and graphic designer who had a vision and needed a developer with the chops to pull it off. The site uses javascript for its navigation so that the music can play uninterrupted while the user navigates through the site. Using a custom admin section, Pete can post shows, news, and upload slides to the homepage.</p>
 		<p>Design by <a href="http://www.petemillercreative.com">Pete Miller</a></p>
 		<p><a href="http://www.thepetemiller.com" target="_blank">thepetemiller.com</a></p>
 	</div>
@@ -47,10 +47,10 @@
 
 <p>and more...</p>
 <ul>
-<li>Grow-Tech</li>
-<li>Kamasouptra</li>
-<li>Grant Street Orchestra</li>
-<li>Safety Source Maine</li>
-<li>Jules in the Jungle</li>
+<li><a href="http://www.grow-tech.com" target="_blank">Grow-Tech</a></li>
+<li><a href="http://www.kamasouptra.com" target="_blank">Kamasouptra</a></li>
+<li><a href="http://www.grantstreetorchestra.com" target="_blank">Grant Street Orchestra</a></li>
+<li><a href="http://www.safetysourcemaine.com" target="_blank">Safety Source Maine</a></li>
+<li><a href="http://www.julesinthejungle.com" target="_blank">Jules in the Jungle</a></li>
 </ul>
 <p>In the market? <a href="/pricing">See pricing info</a></p>

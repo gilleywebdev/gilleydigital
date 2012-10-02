@@ -40,7 +40,8 @@ class Controller_Staticplus extends Controller_Static {
 
 			Form::errors($post->errors('contact'));
 		}
-		
+
+		Styles::add('forms', Styles::PLUGIN);
 		Styles::add('contact', Styles::PAGE);
 	}
 }

@@ -129,6 +129,12 @@ Kohana::modules(array(
 	'userguide'		=> MODPATH.'userguide',		// User guide and API documentation
 ));
 
+
+if (Kohana::$errors === FALSE)
+{
+	set_exception_handler(array('Kohana_Exception_Custom', 'handler'));
+}
+
 if (Kohana::$environment !== Kohana::PRODUCTION)
 {
 	Kohana::$config->attach(new Kohana_Config_File('config/development'));

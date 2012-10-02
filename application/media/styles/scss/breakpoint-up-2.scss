@@ -5,12 +5,12 @@
 }
 
 /* Navigation */
-nav {
-	background: #273039;
+.nav {
+	background: #d619f2;
 	width: 100%;
 }
 
-.nav {
+.nav_ul {
 	width: 100%;
 }
 
@@ -19,6 +19,7 @@ nav {
 	@include border-radius(0);
 	width: 33.33%;
 	margin: 0;
+	height: 3em;
 	padding: 3px;
 }
 
@@ -47,6 +48,11 @@ nav {
 }
 
 /* Content */
+.container {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
 .column {
 	float: none;
 	width: auto;

@@ -15,12 +15,13 @@
 	<p><strong>$1/month</strong></p>
 </div>
 <div class="pricing_block">
-	<h2>Hosting</h2>
-	<p><strong>$10/month</strong></p>
+	<h2>Hosting*</h2>
+	<p><strong>$19/month</strong></p>
 </div>
 <div class="cf"></div>
 
-<p>Average total: <strong>$1,920</strong> + <strong>$11/month</strong></p>
+<p class="footnote">* includes 24/7 live support &amp; regular platform updates</p>
+<p>Average total: <strong>$1,920</strong> + <strong>$20/month</strong></p>
 
-<p>Development estimates can vary but the rest is pretty consistent. Payment schedule is negotiable.</p>
+<p>Development estimates can vary but the rest are consistent. Payment schedule is negotiable.</p>
 <p>Ready to pull the trigger? <a href="/contact">Get an offical quote</a></p>
