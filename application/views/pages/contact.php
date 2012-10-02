@@ -2,17 +2,7 @@
 <p class="zero-bottom">Phone: <?php echo Info::get('phone') ?><br>
 Email: <a href="mailto:<?php echo Info::get('email') ?>"><?php echo Info::get('email') ?></a><br>
 </p>
-<div class="social">
-	<a href="https://www.facebook.com/gilleywebdev" target="_blank">
-		<img src="/media/graphics/facebook.png" alt="Facebook">
-	</a>
-	<a href="https://twitter.com/gilleywebdev" target="_blank">
-		<img src="/media/graphics/twitter.png" alt="Twitter">
-	</a>
-	<a href="http://www.linkedin.com/pub/chris-gilley/15/2/36b" target="_blank">
-		<img src="/media/graphics/linkedin.png" alt="LinkedIn">
-	</a>
-</div>
+<?php echo View::factory('includes/social') ?>
 <?php
 	echo View::factory('includes/forms/errors');
 	echo Form::open();

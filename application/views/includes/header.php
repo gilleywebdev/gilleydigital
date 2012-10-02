@@ -15,18 +15,13 @@
 	)) ?>
 
 <!--[if IE <= 8]>
-<link rel="stylesheet" href="/media/styles/css/ie.css">
+<link rel="stylesheet" href="/styles/css/ie.css">
 <![endif]-->
 
 <!-- Vanity -->
 <link rel="shortcut icon" href="favicon.ico">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-
-<!-- Facebook info -->
-<?php if(Kohana::$environment === Kohana::PRODUCTION): ?>
-	<meta property="og:image" content="<?php echo DOMAIN.'/graphics/fb-thumb.jpg' ?> ">
-<?php endif; ?>
 
 <!-- Google Apps -->
 <meta name="google-site-verification" content="vEBGtneZwXF_wfkRaJNGnWmLPq229zVqHtUSp5WzEO0" />

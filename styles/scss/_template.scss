@@ -1,6 +1,6 @@
 /* Base */
 body {
-	background: url('/media/graphics/bg.png') repeat-x top left $backgroundCol;
+	background: url('/graphics/bg.png') repeat-x top left $backgroundCol;
 	font-family: 'Open Sans', serif;
 }
 
@@ -9,7 +9,7 @@ body {
 	width: $container;
 	max-width: $containerMax;
 	margin: 0 auto 0;
-	background: url('/media/graphics/content-bg.png') repeat top left $contentBackgroundCol;
+	background: url('/graphics/content-bg.png') repeat top left $contentBackgroundCol;
 	padding: 1em 2em;
 	@include border-radius(8px 0 0 0);
 }
@@ -101,7 +101,7 @@ strong {
 }
 
 .active {
-	background: url('/media/graphics/content-bg.png');
+	background: url('/graphics/content-bg.png');
 }
 
 /* Content */
@@ -136,7 +136,7 @@ h2, .as-h2 {
 }
 
 .testimonial {
-	background: url('/media/graphics/quotes.png') top left no-repeat;
+	background: url('/graphics/quotes.png') top left no-repeat;
 	padding: 1em 35px;
 	margin-top: 1em;
 }
@@ -186,7 +186,7 @@ h2, .as-h2 {
 }
 
 .aotw_inner {
-	background: url('/media/graphics/headphones.png') 98% .5em no-repeat #f0f0f0;
+	background: url('/graphics/headphones.png') 98% .5em no-repeat #f0f0f0;
 	padding: .5em 5em .5em 1em;
 	@include border-radius(5px);
 	color: #2B2B2B;
