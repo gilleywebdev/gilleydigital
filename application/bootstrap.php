@@ -148,7 +148,7 @@ Kohana::$config->load('database');
 Kohana::$config->attach(new Config_Database);
 
 // You can set this explicitly if SERVER_NAME isn't what you want
-define('DOMAIN', $_SERVER['SERVER_NAME']);
+define('DOMAIN', 'gilleydigital.com');
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
