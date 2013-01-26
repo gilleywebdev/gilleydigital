@@ -93,7 +93,7 @@ RewriteCond %{REQUEST_FILENAME} !-
 RewriteRule .* index.php?kohana_uri=$0 [PT]
 
 # Canonical URL
-RewriteCond %{HTTP_HOST} ^gilleydigital.com
+RewriteCond %{HTTP_HOST} !^www\.gilleydigital\.com
 RewriteRule (.*) http://www.gilleydigital.com/$1 [R=301,L]
 
 
