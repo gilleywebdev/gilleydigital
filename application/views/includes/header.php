@@ -9,12 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
 <!-- Styles -->
-<?php Styles::output(
-	array(
-		array('normalize', Styles::BASE),
-		array('global', Styles::TEMPLATE),
-	),
-	'styles') ?>
+<?php Styles::output() ?>
 
 <!--[if IE <= 8]>
 <link rel="stylesheet" href="/styles/css/ie.css">

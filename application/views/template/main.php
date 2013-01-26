@@ -21,4 +21,4 @@
 		</div>
 	</body>
 </html>
-<?php // Scripts::output('script.js') ?>
+<?php Scripts::output() ?>
