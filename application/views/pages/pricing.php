@@ -16,7 +16,7 @@
 </div>
 <div class="pricing_block">
 	<h2>Hosting*</h2>
-	<p><strong>$19/month</strong></p>
+	<p><strong>$15/month</strong></p>
 </div>
 <div class="cf"></div>
 
